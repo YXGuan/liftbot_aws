@@ -1,0 +1,25 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "The JavaScript template",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "buffer": "^6.0.3",
+    "eslint": "^7.2.0",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "keywords": [
+    "css",
+    "javascript"
+  ],
+  "dependencies": {
+    "@langchain/openai": "^0.0.25",
+    "@supabase/supabase-js": "^2.41.1",
+    "langchain": "^0.1.30"
+  }
+}
